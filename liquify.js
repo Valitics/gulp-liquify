@@ -41,7 +41,7 @@ var liquify = function(contents, locals, includeBase, prefix, filters){
         filePath = path.join(includeBase, name);
 
       } else {
-        filePath = name;
+        filePath = path.join(includeBase, name);
       }
 
 
